@@ -1,0 +1,32 @@
+﻿@model IEnumerable<iTunesProject.Models.MusicWithClicksModel>
+@using iTunesProject.Models;
+
+@{
+    ViewBag.Title = "Music";
+}
+
+<h1>Music List</h1>
+
+<h3>
+    @Html.ActionLink("Search Again", "index")
+</h3>
+<table class="table">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <img src="@Url.Content(item.Music.ArtworkUrl100)" alt="@Url.Content(item.Music.ArtworkUrl60)" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Music.TrackName) <br />
+                @Html.DisplayFor(modelItem => item.Music.ArtistName) <br />
+                @Html.DisplayFor(modelItem => item.Music.CollectionName) <br />
+                @Html.ActionLink("Learn More >", "Clicked", new { url = item.Music.PreviewUrl })
+            </td>
+            <td>
+                Times Clicked: @Html.DisplayFor(modelItem => item.Clicks)
+            </td>
+        </tr>
+    }
+
+</table>

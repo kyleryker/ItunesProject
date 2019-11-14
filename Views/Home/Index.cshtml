@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+    <div class="jumbotron gradient">
+        <h1>ITunes Music Finder</h1>
+        @using (Html.BeginForm("Music", "Home", FormMethod.Post))
+        {
+            <input placeholder="What do you want to find?" type="text" name="term" id="term" />
+            <button class="rounded-button" type="submit" value="Music">Search</button>
+        }
+    </div>

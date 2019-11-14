@@ -1,0 +1,66 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input {
+    font-size: 17px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 400;
+    outline: none;
+}
+
+.table{
+    border: none;
+    outline:none;
+}
+
+tr{
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 17px;
+}
+select,
+textarea {
+    max-width: 280px;
+}
+
+.rounded-button{
+    border-radius: 22px;
+    color: black;
+    background-color:white;
+    border: None;
+    font-size: 17px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 400;
+    outline: none;
+}
+
+.gradient {
+    color: white;
+    background-image: linear-gradient(to bottom right, #f76c55, #db57a2, #be4fd5);
+}

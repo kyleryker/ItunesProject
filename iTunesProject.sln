@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTunesProject", "iTunesProject.csproj", "{652233D6-52F7-4883-B14E-F75E0CD3D2E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItunesDataAccess", "..\ItunesDataAccess\ItunesDataAccess.csproj", "{B0EE6589-17BA-419F-A6E4-7388C3758BDF}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ItunesDB", "..\ItunesDB\ItunesDB.sqlproj", "{21086229-2F11-4C03-8D68-5EF94927B474}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{652233D6-52F7-4883-B14E-F75E0CD3D2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652233D6-52F7-4883-B14E-F75E0CD3D2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652233D6-52F7-4883-B14E-F75E0CD3D2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652233D6-52F7-4883-B14E-F75E0CD3D2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0EE6589-17BA-419F-A6E4-7388C3758BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0EE6589-17BA-419F-A6E4-7388C3758BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0EE6589-17BA-419F-A6E4-7388C3758BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0EE6589-17BA-419F-A6E4-7388C3758BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21086229-2F11-4C03-8D68-5EF94927B474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21086229-2F11-4C03-8D68-5EF94927B474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21086229-2F11-4C03-8D68-5EF94927B474}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{21086229-2F11-4C03-8D68-5EF94927B474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21086229-2F11-4C03-8D68-5EF94927B474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21086229-2F11-4C03-8D68-5EF94927B474}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA74A4D5-6BB7-4728-9A47-9AA9F26D0B97}
+	EndGlobalSection
+EndGlobal
